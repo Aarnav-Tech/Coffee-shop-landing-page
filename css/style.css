@@ -269,7 +269,8 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 9.6rem;
+  left: .6rem;
+  border-radius: 15px;
 }
 
 .location-name {
