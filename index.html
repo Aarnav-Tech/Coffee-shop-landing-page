@@ -95,7 +95,7 @@
                   <p class="offers-title">Selected coffee</p>
                 </div>
                 <p class="paragraph offers-text">
-                  we selected the best premium coffee, for a true taste.
+                  We have selected the best premium coffee, for a true taste.
                 </p>
               </li>
 
@@ -103,10 +103,10 @@
               <li class="list-item">
                 <div class="item">
                   <i class="ri-cake-3-line icon offers-icon"></i>
-                  <p class="offers-title">Delicious cakes</p>
+                  <p class="offers-title">Delicious pâtisserie!</p>
                 </div>
                 <p class="paragraph offers-text">
-                  Enjoy your coffee with some hot cookies
+                  Enjoy your beverage with our delicious pâtisserie!
                 </p>
               </li>
 
@@ -114,10 +114,10 @@
               <li class="list-item">
                 <div class="item">
                   <i class="ri-heart-3-line icon offers-icon"></i>
-                  <p class="offers-title">Enjoy at home</p>
+                  <p class="offers-title">Made With Love.</p>
                 </div>
                 <p class="paragraph offers-text">
-                  Enjoy the best coffee in the comfort of your home
+                  We make our coffee with love, to make you feel home.
                 </p>
               </li>
             </ul>
@@ -129,7 +129,7 @@
       <section class="section section-products" id="menu">
         <div class="container">
           <h2 class="heading-secondary">
-            <span class="title--border">Our pr</span>oducts
+            <span class="title--border">Our Pr</span>oducts
           </h2>
           <div class="products">
             <!-- PRODUCT 1 -->
@@ -227,6 +227,9 @@
           <p class="logo-text">
             What we can do? <br />
             Serving the best coffee for you
+          </p> <br>
+          <p class="logo-text">
+            &copy; <span id="year"></span> Cafe. All rights reserved.
           </p>
         </div>
 
@@ -237,13 +240,13 @@
               <a class="link link-footer" href="#">Home</a>
             </li>
             <li class="list-item">
-              <a class="link link-footer" href="#">Offers</a>
+              <a class="link link-footer" href="#offers">Offers</a>
             </li>
             <li class="list-item">
-              <a class="link link-footer" href="#">Menu</a>
+              <a class="link link-footer" href="#menu">Menu</a>
             </li>
             <li class="list-item">
-              <a class="link link-footer" href="#">Location</a>
+              <a class="link link-footer" href="#location">Location</a>
             </li>
           </ul>
         </div>
@@ -265,6 +268,10 @@
           </ul>
         </div>
       </div>
+
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
     </footer>
   </body>
 </html>
